@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Hack the net",
   description: "Hack the network",
+  icons: {
+    icon: '/favicon.svg', 
+  },
 };
 
 export default function RootLayout({
